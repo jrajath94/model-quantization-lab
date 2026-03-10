@@ -3,7 +3,7 @@
 > Apples-to-apples comparison of LLM quantization methods -- same models, same datasets, same metrics, no marketing.
 
 [![CI](https://github.com/jrajath94/model-quantization-lab/workflows/CI/badge.svg)](https://github.com/jrajath94/model-quantization-lab/actions)
-[![Coverage](https://codecov.io/gh/jrajath94/model-quantization-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/jrajath94/model-quantization-lab)
+[![Coverage](https://codecov.io/gh/jrajath94/model-quantization-lab/branch/master/graph/badge.svg)](https://codecov.io/gh/jrajath94/model-quantization-lab)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 
