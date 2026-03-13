@@ -14,14 +14,12 @@ from model_quantization_lab.core import (
 )
 from model_quantization_lab.models import (
     BenchmarkConfig,
-    BenchmarkReport,
     QuantizationConfig,
     QuantizationMethod,
 )
 from model_quantization_lab.utils import (
     compute_cosine_similarity,
     compute_mse,
-    compute_perplexity,
     compute_snr_db,
     count_parameters,
     estimate_model_size_mb,

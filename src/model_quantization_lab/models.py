@@ -85,7 +85,7 @@ class BenchmarkConfig(BaseModel):
     seed: int = 42
 
     @model_validator(mode="after")
-    def ensure_methods_not_empty(self) -> "BenchmarkConfig":
+    def ensure_methods_not_empty(self) -> BenchmarkConfig:
         """Add default methods if none specified."""
         if not self.methods:
             self.methods = [

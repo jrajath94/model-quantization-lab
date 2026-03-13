@@ -8,7 +8,6 @@ from pydantic import ValidationError
 from model_quantization_lab.models import (
     BenchmarkConfig,
     BenchmarkReport,
-    PerformanceMetrics,
     QualityMetrics,
     QuantizationConfig,
     QuantizationMethod,

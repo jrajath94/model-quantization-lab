@@ -5,7 +5,7 @@ from __future__ import annotations
 import pytest
 import torch
 
-from model_quantization_lab.core import BenchmarkModel, ModelQuantizer
+from model_quantization_lab.core import BenchmarkModel
 from model_quantization_lab.models import (
     BenchmarkConfig,
     QuantizationConfig,

@@ -7,7 +7,7 @@ import logging
 import sys
 
 from model_quantization_lab.core import QuantizationBenchmark
-from model_quantization_lab.models import BenchmarkConfig, QuantizationConfig, QuantizationMethod
+from model_quantization_lab.models import BenchmarkConfig
 
 logger = logging.getLogger(__name__)
 

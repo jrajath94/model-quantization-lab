@@ -14,9 +14,7 @@ from __future__ import annotations
 import copy
 import logging
 import time
-from typing import Optional
 
-import numpy as np
 import torch
 import torch.nn as nn
 
@@ -356,7 +354,7 @@ class QualityEvaluator:
         self,
         original_model: nn.Module,
         quantized_model: nn.Module,
-        eval_data: Optional[torch.Tensor] = None,
+        eval_data: torch.Tensor | None = None,
     ) -> QualityMetrics:
         """Compare quality between original and quantized model.
 
@@ -436,7 +434,7 @@ class PerformanceProfiler:
     def profile(
         self,
         model: nn.Module,
-        input_data: Optional[torch.Tensor] = None,
+        input_data: torch.Tensor | None = None,
     ) -> PerformanceMetrics:
         """Profile inference performance.
 
